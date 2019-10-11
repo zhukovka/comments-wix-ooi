@@ -22,14 +22,14 @@
     "express": "^4.16.4",
     "express-session": "~1.15.0",
     "husky": "~0.14.0",
-    "jest-yoshi-preset": "^3.5.0",
+    "jest-yoshi-preset": "^4.6.3",
     "lint-staged": "^7.2.2",
     "puppeteer": "^1.18.1",
     "react-test-renderer": "~15.6.0",
     "svg2react-icon": "^3.0.86",
     "velocity": "~0.7.0",
-    "yoshi": "^3.0.0",
-    "yoshi-style-dependencies": "^3.0.0"
+    "yoshi": "^4.6.3",
+    "yoshi-style-dependencies": "^4.6.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.4.4",
