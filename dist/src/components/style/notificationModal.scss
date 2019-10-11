@@ -1,0 +1,27 @@
+.error-modal {
+  background: #7eca75;
+  border-radius: 0px 0px 0px 0px;
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  left: 0;
+  z-index: 100; }
+
+.close-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  margin-right: 10px; }
+
+.close-icon {
+  top: 7px !important; }
+
+.error-text {
+  color: white;
+  font-family: Avenir-Book;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center; }

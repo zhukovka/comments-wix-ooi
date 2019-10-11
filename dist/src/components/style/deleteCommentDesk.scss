@@ -1,0 +1,44 @@
+.container {
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+  height: 372px;
+  width: 580px;
+  margin-top: 40%; }
+  .container .main-title {
+    font-weight: 900;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 50px; }
+  .container .message-container {
+    margin: auto;
+    font-style: normal;
+    font-stretch: normal;
+    width: 440px;
+    height: 78px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 30px; }
+  .container .middle-container {
+    width: 440px; }
+  .container .action-container {
+    margin-top: 35px; }
+    .container .action-container button {
+      min-width: 130px;
+      width: 132px;
+      height: 40px;
+      background: black;
+      border-radius: 0px;
+      font-weight: 300;
+      text-align: center;
+      letter-spacing: 0px;
+      margin-left: 24px;
+      cursor: pointer; }
+    .container .action-container .cancel-button {
+      background: white;
+      border: 1px solid black;
+      margin-left: 139px; }
+
+.action-container > div > button:hover {
+  opacity: 0.6; }

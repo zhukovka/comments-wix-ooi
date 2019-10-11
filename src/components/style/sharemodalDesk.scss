@@ -1,0 +1,59 @@
+
+.share_modal_backdrop_style {
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.share_modal_header_container {
+  padding-top: 52px;
+  align-items: center;
+  text-align: center;
+}
+
+.share_modal_img {
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.share_modal_container_style {
+  width: 580px;
+  height: 272px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  position: relative;
+}
+
+.share_modal_content {
+  height: 96px;
+  line-height: 4.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+.share_modal_header {
+  height: 40px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.share_modal_content > li :hover{
+  opacity: 0.6;
+}
+.share_modal_content_container {
+}
+
+.share_modal_img_fb {
+
+}

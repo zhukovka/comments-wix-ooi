@@ -1,0 +1,27 @@
+.container {
+  background: rgb(255, 255, 255);
+  border-radius: 0px 0px 0px 0px;
+  height: 100%;
+  width: 320px;
+
+  .rce-container {
+    margin: auto;
+    border-radius: 20px;
+    width: 280px;
+    display: flex;
+  }
+  .message-container{
+
+  }
+}
+.rceContainer{
+  margin-top: 26px;
+  width: 280px;
+  height: 240px;
+  margin-bottom: 48px;
+}
+
+.ctaContainer {
+  text-align:right;
+}
+

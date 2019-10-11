@@ -1,0 +1,69 @@
+/* join_community */
+
+.modal_backdrop_style {
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 140%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal_container_style {
+  width: 280px;
+  height: 294px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  margin-top: 60px;
+}
+
+.close_icon_container {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  float: right;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+
+.modal_header {
+  width: 220px;
+  height: 36px;
+}
+
+.modal_header_container{
+  padding-top: 50px;
+  padding-left: 32px;
+}
+
+.modal_content{
+  width: 220px;
+  height: 96px;
+  padding-left: 34px;
+  padding-top: 10px;
+}
+
+.modal_content {
+  width: 220px;
+  height: 96px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+  padding-top: 8px;
+}
+
+.modal_content_buttons {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.button1_style {
+  width: 220px;
+  height: 42px;
+  color: #ffffff;
+}
+
+.mobile_icons_close {
+
+}
+

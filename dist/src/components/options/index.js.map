@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["default"],"mappings":";;;;;;;;;4CAAQA,O","file":"index.js","sourcesContent":["export {default} from \"./options\";\n"]}

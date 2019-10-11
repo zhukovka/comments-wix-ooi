@@ -1,0 +1,87 @@
+.report_modal_backdrop_style {
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.report_modal_container_style {
+  min-width: 320px;
+  height: 568px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15); }
+
+.report_modal_content_container {
+  padding-left: 30px;
+  padding-top: 65px; }
+
+.report_modal_content {
+  padding-top: 24px;
+  display: table;
+  border-collapse: separate; }
+
+.report_modal_header {
+  width: 266px;
+  height: 36px; }
+
+.cancel_icon_container {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  float: right;
+  padding-right: 24px;
+  padding-top: 24px; }
+
+.report_modal_content_row {
+  display: table-row; }
+
+.report_modal_content_cell {
+  display: table-cell;
+  padding: 8px; }
+
+.report_modal_option_container {
+  padding-top: 14px;
+  margin-left: -8px; }
+
+.report_modal_content_buttons {
+  margin-top: 16px; }
+
+.rad > i {
+  /* DEFAULT <i> STYLE */
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  margin-right: 12px;
+  object-fit: contain; }
+
+.rad > input:checked + i {
+  /* (RADIO CHECKED) <i> STYLE */
+  box-shadow: inset 0 0 0 3px #fff;
+  background: #82bfb8; }
+
+.rad {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+
+.rad > input {
+  /* HIDE ORG RADIO & CHECKBOX */
+  visibility: hidden;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  object-fit: contain; }
+
+.report_button {
+  width: 260px;
+  height: 42px;
+  text-align: center; }
+
+.cancel_button {
+  width: 260px;
+  height: 42px;
+  text-align: center;
+  margin-top: 12px; }

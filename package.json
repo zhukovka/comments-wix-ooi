@@ -1,0 +1,78 @@
+{
+  "name": "wix-comments-ooi",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": false,
+  "main": "dist/src/WixCommentsOoi.js",
+  "author": {
+    "name": "talbenmoshe",
+    "email": "talbm@wix.com"
+  },
+  "scripts": {
+    "start": "yoshi start",
+    "precommit": "lint-staged",
+    "pretest": "yoshi build",
+    "test": "yoshi test --jest",
+    "posttest": "yoshi lint",
+    "release": "yoshi release"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "~2.9.0",
+    "express": "^4.16.4",
+    "express-session": "~1.15.0",
+    "husky": "~0.14.0",
+    "jest-yoshi-preset": "^3.5.0",
+    "lint-staged": "^7.2.2",
+    "puppeteer": "^1.18.1",
+    "react-test-renderer": "~15.6.0",
+    "svg2react-icon": "^3.0.86",
+    "velocity": "~0.7.0",
+    "yoshi": "^3.0.0",
+    "yoshi-style-dependencies": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "@wix/draft-js": "^0.10.488",
+    "axios": "~0.18.0",
+    "classnames": "^2.2.6",
+    "draft-js": "^0.10.5",
+    "eslint-plugin-disable": "^1.0.3",
+    "eslint-plugin-jest": "^22.7.2",
+    "i18next": "^11.6.0",
+    "moment": "^2.22.2",
+    "net": "^1.0.2",
+    "prop-types": "~15.6.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-i18next": "^7.11.0",
+    "uuid": "^3.3.2",
+    "wix": "^0.1.1",
+    "wix-comments": "latest",
+    "wix-comments-rce": "latest"
+  },
+  "lint-staged": {
+    "*.{js,scss,less}": "yoshi lint"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "yoshi": {
+    "externals": {
+      "react": "React",
+      "react-dom": "ReactDOM"
+    },
+    "hmr": "auto"
+  },
+  "jest": {
+    "preset": "jest-yoshi-preset"
+  },
+  "babel": {
+    "presets": [
+      "yoshi"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "yoshi"
+  }
+}

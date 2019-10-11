@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["default"],"mappings":";;;;;;;;;mDAEQA,O","file":"index.js","sourcesContent":["/* eslint-disable */\n/* tslint:disable */\nexport {default as WixCommentsOoi} from './wixCommentsOoi';\n\n/* tslint:enable */\n/* eslint-enable */\n"]}

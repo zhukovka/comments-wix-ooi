@@ -1,0 +1,43 @@
+.share_modal_backdrop_style {
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.share_modal_header_container {
+  align-items: center;
+  text-align: center;
+  margin-top: 24px; }
+
+.share_modal_img {
+  margin-left: 60px;
+  cursor: pointer; }
+
+.share_modal_container_style {
+  width: 100%;
+  height: 147px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  position: fixed; }
+
+.share_modal_content {
+  height: 96px;
+  line-height: 4.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  padding-top: 30px;
+  margin-right: 59px; }
+
+.share_modal_header {
+  width: 145px;
+  height: 24px;
+  color: black;
+  font-size: 16px;
+  font-family: Avenir-Book;
+  font-weight: 300;
+  text-align: center;
+  line-height: 24px; }

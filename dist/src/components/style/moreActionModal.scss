@@ -1,0 +1,44 @@
+.more_action_modal_backdrop {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.more_action {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  background-color: #fff; }
+
+.more_action_modal {
+  cursor: pointer;
+  background-color: #ffffff;
+  height: 20px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  padding: 14px 24px 14px 24px; }
+
+.reported_more_action_modal {
+  color: darkgray;
+  cursor: pointer;
+  background-color: #ffffff;
+  height: 20px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  padding: 14px 24px 14px 24px; }
+
+.more_action > li:hover {
+  background: gainsboro; }
+
+.more_action li:last-child {
+  margin-bottom: 12px; }
+
+.more_action li:first-child {
+  margin-top: 12px; }
+
+.more_action_modal:focus {
+  background: gainsboro; }

@@ -1,0 +1,72 @@
+.container {
+  background: rgb(255, 255, 255);
+  border-radius: 0px 0px 0px 0px;
+  //height: 480px;
+  height: auto;
+  width: 280px;
+  margin-top: 41px;
+
+  .main-title {
+    height: 28px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0px;
+    //padding-top: 42px;
+    padding-top: 37px;
+    padding-bottom: 24px;
+  }
+
+  .report_options{
+    padding: 12px 0px 3px 0px;
+  }
+  .report_options_container{
+    display: grid;
+  }
+  .close_icon_container {
+    //width: 16px;
+   // height: 16px;
+    object-fit: contain;
+  }
+
+  .message-container {
+    margin: auto;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    width: 216px;
+    //height: 40px;
+    font-weight: 300;
+    letter-spacing: 0px;
+   // padding-bottom: 137px;
+  }
+
+  .middle-container {
+    width: 440px
+  }
+
+  .action-container {
+    //margin-top: 35px;
+    padding-top: 40px;
+    padding-bottom: 54px;
+
+    button {
+      min-width: 130px;
+      background: rgb(0, 0, 0);
+      border-radius: 0px;
+      width: 216px;
+      height: 40px;
+      font-weight: 300;
+      text-align: center;
+      letter-spacing: 0px;
+      margin: 5px 33px;
+
+    }
+    .cancel-button{
+      background: rgb(255,255, 255);
+      color: rgb(0,0,0);
+      border: 1px solid rgb(0, 0, 0);
+    }
+  }
+
+
+}

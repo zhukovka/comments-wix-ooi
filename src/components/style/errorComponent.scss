@@ -1,0 +1,43 @@
+.error {
+  background: rgb(247, 86, 76);
+  border-radius: 0px;
+  height: 56px;
+  top: 50px;
+  position:fixed;
+  width: 100%;
+  left:0;
+  z-index: 100;
+}
+.close-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+
+  margin-right: 10px;
+}
+.close-icon{
+  top: 7px !important;
+}
+.mobile-error {
+  background: rgb(247, 86, 76);
+  border-radius: 0px;
+  height: 56px;
+  top: 0;
+  position:fixed;
+  width: 100%;
+  left:0;
+  z-index: 100;
+}
+
+.error-msg {
+  color: rgb(255, 255, 255);
+  font-family: Avenir-Book;
+  font-size: 14px;
+  font-weight: 300;
+  height: 20px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-align: center;
+  width: 100%;
+}

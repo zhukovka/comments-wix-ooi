@@ -1,0 +1,46 @@
+.more_action_modal_backdrop {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.more_action {
+  display: block;
+  width: 280px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: white; }
+
+.more_action_modal {
+  cursor: pointer;
+  background-color: #fff;
+  height: 24px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  padding: 8px 24px 8px 24px; }
+
+.reported_more_action_modal {
+  color: #a9a9a9;
+  cursor: pointer;
+  background-color: #fff;
+  height: 24px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  padding: 8px 24px 8px 24px; }
+
+.more_action > li:hover {
+  background: gainsboro; }
+
+.more_action li:last-child {
+  margin-bottom: 12px; }
+
+.more_action li:first-child {
+  margin-top: 12px; }
+
+.more_action_modal:focus {
+  background: gainsboro; }

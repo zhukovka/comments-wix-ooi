@@ -1,0 +1,58 @@
+.container {
+  background: rgb(255, 255, 255);
+  border-radius: 0px 0px 0px 0px;
+  height: 372px;
+  width: 580px;
+  margin-top: 40%;
+
+  .main-title {
+    font-weight: 900;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 50px;
+  }
+
+  .message-container {
+    margin: auto;
+    font-style: normal;
+    font-stretch: normal;
+    width: 440px;
+    height: 78px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 30px;
+  }
+
+  .middle-container {
+    width: 440px
+  }
+
+  .action-container {
+    margin-top: 35px;
+    button {
+      min-width: 130px;
+      width: 132px;
+      height: 40px;
+      background: rgb(0, 0, 0);
+      border-radius: 0px;
+      font-weight: 300;
+      text-align: center;
+      letter-spacing: 0px;
+      margin-left: 24px;
+      cursor: pointer;
+    }
+    .cancel-button{
+      background: rgb(255,255, 255);
+      border: 1px solid rgb(0, 0, 0);
+      margin-left: 139px;
+    }
+  }
+
+
+}
+
+.action-container>div>button:hover{
+  opacity: 0.6;
+}
