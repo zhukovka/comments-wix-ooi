@@ -28,7 +28,7 @@
     "react-test-renderer": "~15.6.0",
     "svg2react-icon": "^3.0.86",
     "velocity": "~0.7.0",
-    "yoshi": "^4.6.3",
+    "yoshi": "^4.87.0",
     "yoshi-style-dependencies": "^4.6.0"
   },
   "dependencies": {
