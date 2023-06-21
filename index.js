@@ -31,4 +31,5 @@ app.use('/', (req, res) => {
 // Launch the server
 app.listen(process.env.PORT, () => {
   console.info(`Fake server is running on port ${process.env.PORT}`);
+    console.log('kukurku');
 });
