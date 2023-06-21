@@ -1,5 +1,4 @@
-- name: OpenAI ChatGPT based PR Reviewer & Summarizer
-  uses: coderabbitai/openai-pr-reviewer@0.54.0
+name: OpenAI ChatGPT based PR Reviewer & Summarizer
 
 permissions:
   contents: read
