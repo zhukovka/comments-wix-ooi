@@ -44,3 +44,5 @@
 | name | string | - | - | The member name  |
 | avatar | string | - | - | The member avatar url  |
 | isAdmin | bool | false | - | If the member is admin |
+
+kukuruku
